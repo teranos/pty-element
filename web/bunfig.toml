@@ -1,0 +1,3 @@
+# @teranos/elements is published on JSR; its npm-compatible registry serves the @jsr scope.
+[install.scopes]
+"@jsr" = "https://npm.jsr.io"

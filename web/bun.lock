@@ -8,11 +8,19 @@
         "@xterm/addon-fit": "0.10.0",
         "@xterm/xterm": "5.5.0",
       },
+      "devDependencies": {
+        "@teranos/elements": "npm:@jsr/teranos__elements@1.25.3",
+        "typescript": "5.9.3",
+      },
     },
   },
   "packages": {
+    "@teranos/elements": ["@jsr/teranos__elements@1.25.3", "https://npm.jsr.io/~/11/@jsr/teranos__elements/1.25.3.tgz", {}, "sha512-XJ3hbI71j7GQ+aKAFBNMOHlvh885F6vR6lFernr1EJuzx0fEFJcQVHSA1JS9lY78QMjkPUj9lPIoXyD7JWNFrg=="],
+
     "@xterm/addon-fit": ["@xterm/addon-fit@0.10.0", "", { "peerDependencies": { "@xterm/xterm": "^5.0.0" } }, "sha512-UFYkDm4HUahf2lnEyHvio51TNGiLK66mqP2JoATy7hRZeXaGMRDr00JiSF7m63vR5WKATF605yEggJKsw0JpMQ=="],
 
     "@xterm/xterm": ["@xterm/xterm@5.5.0", "", {}, "sha512-hqJHYaQb5OptNunnyAnkHyM8aCjZ1MEIDTQu1iIbbTD/xops91NB5yq1ZK/dC2JDbVWtF23zUtl9JE2NqwT87A=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
   }
 }

@@ -4,5 +4,9 @@
   "dependencies": {
     "@xterm/xterm": "5.5.0",
     "@xterm/addon-fit": "0.10.0"
+  },
+  "devDependencies": {
+    "@teranos/elements": "npm:@jsr/teranos__elements@1.25.3",
+    "typescript": "5.9.3"
   }
 }
